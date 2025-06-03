@@ -1,0 +1,12 @@
+body {
+  background-color: #352a55; /* light pink */
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}

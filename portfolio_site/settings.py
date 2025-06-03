@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rrlrbk5ux*1+ad7f+pd88#&t1jo@9qsvwvov+5p7xjjzs3421x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-portfolio-p8xx.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -111,7 +111,11 @@ USE_I18N = True
 
 USE_TZ = True
 
+import os
 
+DEBUG = False
+
+ALLOWED_HOSTS = ['main.onrender.com']
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
